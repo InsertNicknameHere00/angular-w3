@@ -1,1 +1,113 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+padding: 0;
+background-image: linear-gradient(55deg, #f6d365 0%, #fda085 50%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+  background-color:#0056b3;
+    margin:0 auto;
+width: 75%;
+max-height: 550px;
+overflow: auto;
+border-radius: 25px;
+}
+
+.container { 
+    width: 100vh;
+    height: 50vh;
+    padding: 2%;
+}
+
+.second-part {
+    padding: 2% 2% 2% 0;
+    overflow-y: auto;
+}
+
+h1 {
+    font-style: italic;
+    font-family: Garamond, serif;
+    text-align: center;
+    padding: 0px;
+    font-size: 45px;
+    color: white;
+}
+
+textarea {
+    width: 95vh;
+    height: 30vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 20px;
+}
+
+input{
+    width: 50%;
+    height: 15px;
+    padding: 10px;
+    border: 0px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    width: 20vh;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:#03AED2;
+    font-size: 25px;
+}
+
+.note-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 20vh;
+}
+
+.note-item:hover{
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.note-item:last-child {
+    margin-bottom: 0;
+}
+  .Error{
+    color:red;
+    border:2px solid red;
+  }
+
+  .ErrorMessage{
+    color:red;
+    font-size: 20px;
+  }
+
+  .LengthCheck{
+    color:white;
+    font-size: 20px;
+  }
